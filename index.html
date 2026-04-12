@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
+      t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "waoo7a9upx");
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SamShop — Contemporary Luxury Streetwear</title>
+  <meta name="description"
+    content="SamShop — Premium contemporary streetwear combining minimal luxury with a youthful edge. Discover curated collections for the modern individual.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══════════════════════════════════════
+     NAVBAR
+     ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="nav-logo">Sam<span>Shop</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#lookbook">Lookbook</a></li>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#newsletter">Contact</a></li>
+    </ul>
+
+    <a href="#" class="nav-cart" id="navCart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <path d="M16 10a4 4 0 01-8 0" />
+      </svg>
+      <span class="nav-cart-count">3</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- ═══════════════════════════════════════
+     HERO SECTION
+     ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+      <div class="shape shape-4"></div>
+      <div class="shape shape-5"></div>
+    </div>
+    <div class="hero-gradient"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Spring / Summer 2026</p>
+      <h1 class="hero-title">
+        <span class="word"><span class="word-inner">Redefine</span></span>
+        <span class="word"><span class="word-inner">Your</span></span>
+        <span class="word"><span class="word-inner"><em>Everyday</em></span></span>
+        <span class="word"><span class="word-inner">Aesthetic</span></span>
+      </h1>
+      <p class="hero-sub">Curated essentials for the modern individual. Minimal design, maximal statement.</p>
+      <a href="#collection" class="cta-btn" id="ctaBtn"><span>Explore Collection</span></a>
+    </div>
+
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     MARQUEE STRIP
+     ═══════════════════════════════════════ -->
+  <div class="marquee">
+    <div class="marquee-inner">
+      <div class="marquee-content">
+        <span>New Arrivals</span>
+        <span>Premium Quality</span>
+        <span>Free Shipping</span>
+        <span>Sustainable Fabrics</span>
+        <span>Limited Edition</span>
+        <span>Handcrafted Details</span>
+        <span>Worldwide Delivery</span>
+        <span>Effortless Style</span>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <span>New Arrivals</span>
+        <span>Premium Quality</span>
+        <span>Free Shipping</span>
+        <span>Sustainable Fabrics</span>
+        <span>Limited Edition</span>
+        <span>Handcrafted Details</span>
+        <span>Worldwide Delivery</span>
+        <span>Effortless Style</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+     WHY SAMSHOP — FEATURE CARDS
+     ═══════════════════════════════════════ -->
+  <section class="features section-pad" id="features">
+    <div class="section-header reveal">
+      <p class="eyebrow">Why SamShop</p>
+      <h2>Crafted for the Conscious</h2>
+      <p>Every piece is designed with purpose — marrying sustainable practice with uncompromising style.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card reveal reveal-delay-1">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+            <path d="M2 17l10 5 10-5" />
+            <path d="M2 12l10 5 10-5" />
+          </svg>
+        </div>
+        <h3>Premium Materials</h3>
+        <p>Sourced from the finest mills across Italy, Japan, and Portugal. Every thread tells a story of quality.</p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-2">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M2 12h20" />
+            <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
+          </svg>
+        </div>
+        <h3>Worldwide Shipping</h3>
+        <p>Free express delivery to 40+ countries. Carbon-neutral shipping on every order, always.</p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-3">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+          </svg>
+        </div>
+        <h3>Ethical Production</h3>
+        <p>Fair wages, safe conditions, transparent supply chain. Fashion that feels good in every sense.</p>
+      </div>
+
+      <div class="feature-card reveal reveal-delay-4">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 12 20 22 4 22 4 12" />
+            <rect x="2" y="7" width="20" height="5" />
+            <line x1="12" y1="22" x2="12" y2="7" />
+            <path d="M12 7H7.5a2.5 2.5 0 010-5C11 2 12 7 12 7z" />
+            <path d="M12 7h4.5a2.5 2.5 0 000-5C13 2 12 7 12 7z" />
+          </svg>
+        </div>
+        <h3>Effortless Returns</h3>
+        <p>30-day hassle-free returns. Not in love? We'll make it right — no questions, no drama.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     FEATURED COLLECTION
+     ═══════════════════════════════════════ -->
+  <section class="collection section-pad" id="collection">
+    <div class="section-header reveal">
+      <p class="eyebrow">Featured</p>
+      <h2>Curated Essentials</h2>
+    </div>
+
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card reveal reveal-delay-1">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop1/600/800" alt="Oversized Linen Shirt" loading="lazy">
+          <div class="product-overlay">
+            <h3>Oversized Linen Shirt</h3>
+            <p class="price">$128</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Oversized Linen Shirt</h3>
+          <p class="price">$128</p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card reveal reveal-delay-2">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop2/600/800" alt="Relaxed Trousers" loading="lazy">
+          <div class="product-overlay">
+            <h3>Relaxed Wool Trousers</h3>
+            <p class="price">$165</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Relaxed Wool Trousers</h3>
+          <p class="price">$165</p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card reveal reveal-delay-3">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop3/600/800" alt="Structured Knit Tee" loading="lazy">
+          <div class="product-overlay">
+            <h3>Structured Knit Tee</h3>
+            <p class="price">$89</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Structured Knit Tee</h3>
+          <p class="price">$89</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card reveal reveal-delay-1">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop4/600/800" alt="Draped Jersey Dress" loading="lazy">
+          <div class="product-overlay">
+            <h3>Draped Jersey Dress</h3>
+            <p class="price">$195</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Draped Jersey Dress</h3>
+          <p class="price">$195</p>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card reveal reveal-delay-2">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop5/600/800" alt="Tailored Blazer" loading="lazy">
+          <div class="product-overlay">
+            <h3>Tailored Blazer</h3>
+            <p class="price">$245</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Tailored Blazer</h3>
+          <p class="price">$245</p>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card reveal reveal-delay-3">
+        <div class="product-card-img">
+          <img src="https://picsum.photos/seed/samshop6/600/800" alt="Cotton Utility Jacket" loading="lazy">
+          <div class="product-overlay">
+            <h3>Cotton Utility Jacket</h3>
+            <p class="price">$210</p>
+          </div>
+          <button class="quick-add">Quick Add</button>
+        </div>
+        <div class="product-info">
+          <h3>Cotton Utility Jacket</h3>
+          <p class="price">$210</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     BRAND STATEMENT
+     ═══════════════════════════════════════ -->
+  <section class="brand-statement section-pad" id="about">
+    <div class="brand-statement-inner reveal">
+      <blockquote>Style is not about following trends. It's about owning your silence — and letting the fabric speak.
+      </blockquote>
+      <cite>The SamShop Philosophy</cite>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     OUR STORY + STATS
+     ═══════════════════════════════════════ -->
+  <section class="story section-pad" id="story">
+    <div class="story-grid">
+      <div class="story-image reveal-left">
+        <img src="https://picsum.photos/seed/samstory/700/900" alt="SamShop Atelier" loading="lazy">
+      </div>
+      <div class="story-text">
+        <p class="eyebrow reveal reveal-delay-1">Our Story</p>
+        <h2 class="reveal reveal-delay-2">Born from a Love<br>of the <em>Understated</em></h2>
+        <p class="reveal reveal-delay-3">SamShop began in a small studio with a simple conviction: great clothing
+          doesn't need to shout. Founded in 2021, we set out to create pieces that speak through cut, texture, and
+          intention — not logos or trends.</p>
+        <p class="reveal reveal-delay-4">Every garment is developed over months of iteration, sourced from mills we've
+          visited personally, and produced in quantities that respect both the craft and the planet.</p>
+
+        <div class="stats-row reveal reveal-delay-5">
+          <div class="stat-item">
+            <div class="stat-number" data-count="42">0</div>
+            <div class="stat-label">Countries</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="185">0</div>
+            <div class="stat-label">Styles</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="50" data-suffix="K+">0</div>
+            <div class="stat-label">Customers</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     LOOKBOOK / EDITORIAL
+     ═══════════════════════════════════════ -->
+  <section class="lookbook section-pad" id="lookbook">
+    <div class="section-header reveal">
+      <p class="eyebrow">Editorial</p>
+      <h2>The Lookbook</h2>
+    </div>
+
+    <div class="lookbook-grid">
+      <div class="lookbook-item reveal-scale reveal-delay-1">
+        <img src="https://picsum.photos/seed/samlook1/600/900" alt="Editorial Look 1" loading="lazy">
+        <div class="lookbook-caption">
+          <h3>Quiet Luxury</h3>
+          <p>Spring 2026</p>
+        </div>
+      </div>
+      <div class="lookbook-item reveal-scale reveal-delay-2">
+        <img src="https://picsum.photos/seed/samlook2/600/450" alt="Editorial Look 2" loading="lazy">
+        <div class="lookbook-caption">
+          <h3>Urban Ease</h3>
+          <p>Essentials</p>
+        </div>
+      </div>
+      <div class="lookbook-item reveal-scale reveal-delay-3">
+        <img src="https://picsum.photos/seed/samlook3/600/450" alt="Editorial Look 3" loading="lazy">
+        <div class="lookbook-caption">
+          <h3>Evening Silhouette</h3>
+          <p>After Hours</p>
+        </div>
+      </div>
+      <div class="lookbook-item reveal-scale reveal-delay-4">
+        <img src="https://picsum.photos/seed/samlook4/600/450" alt="Editorial Look 4" loading="lazy">
+        <div class="lookbook-caption">
+          <h3>Raw Texture</h3>
+          <p>New Season</p>
+        </div>
+      </div>
+      <div class="lookbook-item reveal-scale reveal-delay-5">
+        <img src="https://picsum.photos/seed/samlook5/600/450" alt="Editorial Look 5" loading="lazy">
+        <div class="lookbook-caption">
+          <h3>Monochrome</h3>
+          <p>Capsule</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     MARQUEE (Reversed)
+     ═══════════════════════════════════════ -->
+  <div class="marquee" style="background: var(--warm-sand); color: var(--charcoal);">
+    <div class="marquee-inner" style="animation-direction: reverse; animation-duration: 25s;">
+      <div class="marquee-content">
+        <span>Shop Men</span>
+        <span>Shop Women</span>
+        <span>Accessories</span>
+        <span>New Season</span>
+        <span>Essentials</span>
+        <span>Outerwear</span>
+        <span>Shop Men</span>
+        <span>Shop Women</span>
+      </div>
+      <div class="marquee-content" aria-hidden="true">
+        <span>Shop Men</span>
+        <span>Shop Women</span>
+        <span>Accessories</span>
+        <span>New Season</span>
+        <span>Essentials</span>
+        <span>Outerwear</span>
+        <span>Shop Men</span>
+        <span>Shop Women</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+     TRENDING NOW
+     ═══════════════════════════════════════ -->
+  <section class="trending section-pad" id="trending">
+    <div class="section-header reveal">
+      <p class="eyebrow">Hot Right Now</p>
+      <h2>Trending Pieces</h2>
+    </div>
+
+    <div class="trending-scroll">
+      <div class="trending-card reveal-rotate reveal-delay-1">
+        <div class="trending-card-img">
+          <img src="https://picsum.photos/seed/samtrend1/500/660" alt="Cashmere Hoodie" loading="lazy">
+          <div class="trending-badge">Trending</div>
+        </div>
+        <div class="trending-card-info">
+          <h3>Cashmere Hoodie</h3>
+          <span class="price">$285</span>
+        </div>
+      </div>
+      <div class="trending-card reveal-rotate reveal-delay-2">
+        <div class="trending-card-img">
+          <img src="https://picsum.photos/seed/samtrend2/500/660" alt="Silk Camp Shirt" loading="lazy">
+          <div class="trending-badge">New</div>
+        </div>
+        <div class="trending-card-info">
+          <h3>Silk Camp Shirt</h3>
+          <span class="price">$168</span>
+        </div>
+      </div>
+      <div class="trending-card reveal-rotate reveal-delay-3">
+        <div class="trending-card-img">
+          <img src="https://picsum.photos/seed/samtrend3/500/660" alt="Wide Leg Chinos" loading="lazy">
+          <div class="trending-badge">Bestseller</div>
+        </div>
+        <div class="trending-card-info">
+          <h3>Wide Leg Chinos</h3>
+          <span class="price">$142</span>
+        </div>
+      </div>
+      <div class="trending-card reveal-rotate reveal-delay-4">
+        <div class="trending-card-img">
+          <img src="https://picsum.photos/seed/samtrend4/500/660" alt="Merino Cardigan" loading="lazy">
+          <div class="trending-badge">Limited</div>
+        </div>
+        <div class="trending-card-info">
+          <h3>Merino Cardigan</h3>
+          <span class="price">$198</span>
+        </div>
+      </div>
+      <div class="trending-card reveal-rotate reveal-delay-5">
+        <div class="trending-card-img">
+          <img src="https://picsum.photos/seed/samtrend5/500/660" alt="Linen Shorts" loading="lazy">
+          <div class="trending-badge">New</div>
+        </div>
+        <div class="trending-card-info">
+          <h3>Linen Shorts</h3>
+          <span class="price">$95</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     CATEGORIES BANNER
+     ═══════════════════════════════════════ -->
+  <section class="categories section-pad" id="categories">
+    <div class="section-header reveal">
+      <p class="eyebrow">Browse</p>
+      <h2>Shop by Category</h2>
+    </div>
+
+    <div class="categories-grid">
+      <div class="category-tile reveal-left reveal-delay-1">
+        <div class="category-bg" data-parallax>
+          <img src="https://picsum.photos/seed/sammen/800/600" alt="Men's Collection" loading="lazy">
+        </div>
+        <div class="category-overlay"></div>
+        <div class="category-content">
+          <p class="eyebrow">Collection</p>
+          <h3>Men</h3>
+          <a href="#" class="category-link">Explore</a>
+        </div>
+      </div>
+
+      <div class="category-tile reveal-right reveal-delay-2">
+        <div class="category-bg" data-parallax>
+          <img src="https://picsum.photos/seed/samwomen/800/600" alt="Women's Collection" loading="lazy">
+        </div>
+        <div class="category-overlay"></div>
+        <div class="category-content">
+          <p class="eyebrow">Collection</p>
+          <h3>Women</h3>
+          <a href="#" class="category-link">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     TESTIMONIALS
+     ═══════════════════════════════════════ -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="section-header reveal">
+      <p class="eyebrow">Reviews</p>
+      <h2>What Our Customers Say</h2>
+    </div>
+
+    <div class="testimonials-track">
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+        </div>
+        <blockquote>The quality is absolutely unreal. I've never owned a shirt that feels this considered — every
+          detail, from the buttons to the hem, is intentional.</blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">A</div>
+          <div class="testimonial-author-info">
+            <h4>Amara Chen</h4>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+        </div>
+        <blockquote>I replaced half my wardrobe with SamShop. Minimal, versatile, and they last forever. The linen
+          collection is perfection.</blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">J</div>
+          <div class="testimonial-author-info">
+            <h4>James Nakamura</h4>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-delay-3">
+        <div class="testimonial-stars">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+          <svg viewBox="0 0 24 24">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+          </svg>
+        </div>
+        <blockquote>Finally, a brand that understands minimalism isn't boring. The tailored blazer is my go-to for
+          everything from meetings to dinners.</blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">S</div>
+          <div class="testimonial-author-info">
+            <h4>Sofia Lindqvist</h4>
+            <p>Verified Buyer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     PROCESS — HOW IT WORKS
+     ═══════════════════════════════════════ -->
+  <section class="process section-pad" id="process">
+    <div class="section-header reveal">
+      <p class="eyebrow">The Journey</p>
+      <h2>From Concept to Closet</h2>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-step reveal reveal-delay-1">
+        <div class="process-number">01</div>
+        <h3>Design</h3>
+        <p>Each piece begins as a sketch, refined through dozens of iterations until the silhouette is perfect.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-2">
+        <div class="process-number">02</div>
+        <h3>Source</h3>
+        <p>We partner with heritage mills to select only the finest organic and recycled fabrics available.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-3">
+        <div class="process-number">03</div>
+        <h3>Craft</h3>
+        <p>Small-batch production by skilled artisans ensures every stitch meets our exacting standards.</p>
+      </div>
+      <div class="process-step reveal reveal-delay-4">
+        <div class="process-number">04</div>
+        <h3>Deliver</h3>
+        <p>Packed in recycled materials and shipped carbon-neutral, arriving at your door within days.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     NEWSLETTER
+     ═══════════════════════════════════════ -->
+  <section class="newsletter section-pad" id="newsletter">
+    <div class="newsletter-inner reveal">
+      <h2>Stay in the Loop</h2>
+      <p>Be the first to know about new drops, exclusive offers, and curated style guides.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required id="newsletterInput">
+        <div class="input-line"></div>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Sam<span>Shop</span></div>
+        <p>Contemporary luxury streetwear for the modern individual. Designed with intention, crafted with care.</p>
+        <div class="footer-socials">
+          <!-- Instagram -->
+          <a href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+          <!-- Twitter / X -->
+          <a href="#" aria-label="Twitter">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <!-- Pinterest -->
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">New Arrivals</a></li>
+          <li><a href="#">Best Sellers</a></li>
+          <li><a href="#">Sale</a></li>
+          <li><a href="#">Lookbook</a></li>
+          <li><a href="#">Size Guide</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 SamShop. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════ -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
